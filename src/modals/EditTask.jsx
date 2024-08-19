@@ -1,5 +1,6 @@
 import React, {useState,useEffect} from "react"
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+
 const EditTask = ({modal,toggle,updateTask,taskObj}) => {
     const [taskname, setTaskName] = useState('');
     const [description, setDescription] = useState('');
